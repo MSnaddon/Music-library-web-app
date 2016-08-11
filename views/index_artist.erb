@@ -1,0 +1,6 @@
+<h1>Artists</h1>
+<hr>
+<% @output.each do |artist|%>
+  <%=  "#{artist.id}: #{artist.name}"%>  
+  <hr>
+<% end %>

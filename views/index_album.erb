@@ -1,0 +1,8 @@
+<h1>Albums</h1>
+<hr>
+<% @output.each do |album|%>
+  <p><%=  "#{album.id}: #{album.name}"%></p>
+  <p><%= "#{album.artist_id}" %></p>
+
+  <hr>
+<% end %>
